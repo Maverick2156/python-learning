@@ -10,4 +10,9 @@ z = round(x + y, 2)
 q = round(x - y, 2)
 v = round(x * y, 2)
 
-print(f"Sum: {z}, Difference: {q}, Product: {v}, Quotient: {w}")
+def print_results():
+    print(f"Sum: {z}")
+    print(f"Difference: {q}")
+    print(f"Product: {v}")
+    print(f"Quotient: {w}")
+print_results()
